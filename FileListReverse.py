@@ -4,5 +4,5 @@ with open('./read.txt') as f:
 
 line.reverse()
 
-with open('write.txt',mode='w') as f:
+with open('./write.txt', mode='w') as f:
  f.writelines(line)
